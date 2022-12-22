@@ -1,10 +1,8 @@
-import { useState } from 'react'
+// @ts-ignore
 import profilePicture from '../assets/profile.png'
 import '../stylesheets/App.css'
 
 function Home() {
-    const [count, setCount] = useState(0)
-
     return (
         <div className="App">
             <br/>
@@ -26,7 +24,7 @@ function Home() {
 
             <div className="buttons">
                 <button className="contact">
-                    <a href="mailto:jamie@sootmc.net">Contact Me</a>
+                    <a href="contact">Contact Me</a>
                 </button>
 
                 <button className="github">
