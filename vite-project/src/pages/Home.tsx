@@ -1,19 +1,22 @@
 import { useState } from 'react'
-import profilePicture from './assets/profile.png'
-import './App.css'
+import profilePicture from '../assets/profile.png'
+import '../stylesheets/App.css'
 
-function App() {
+function Home() {
     const [count, setCount] = useState(0)
 
     return (
         <div className="App">
+            <br/>
+            <br/>
+
             <img src={profilePicture} className="profile-picture" alt="profile-picture" />
             <h1>Hey! I'm JamieIsGeek :D</h1>
 
             <div className="info">
                 <p> Hey! My name is Jamie! I'm a developer from the UK. </p>
 
-                <p> I currently work at <a href="https://discord.gg/wilbur">The WilburSoot Discord</a> and <a href="https://sootmc.net">SootMC</a>, as well as working on my own projects! </p>
+                <p> I currently work at <a href="https://discord.gg/wilbur" target="_blank">The WilburSoot Discord</a> and <a href="https://sootmc.net" target="_blank">SootMC</a>, as well as working on my own projects! </p>
                 <br/>
                 <p> This is my developer portfolio! Here you can find my contact info, projects I have worked on and more! </p>
             </div>
@@ -38,4 +41,4 @@ function App() {
     )
 }
 
-export default App
+export default Home
