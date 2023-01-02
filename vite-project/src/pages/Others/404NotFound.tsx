@@ -1,4 +1,3 @@
-import profilePicture from '../../assets/profile.png'
 import '../../stylesheets/App.css'
 
 function NotFound() {
